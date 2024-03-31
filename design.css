@@ -1,0 +1,81 @@
+/* Eco-Friendly Color Palette */
+:root {
+    --primary-green: #2ECC71; /* Primary green color */
+    --secondary-green: #27AE60; /* Secondary green color */
+    --light-green: #A9DFBF; /* Light green color */
+    --dark-green: #1E8449; /* Dark green color */
+    --earth-brown: #8B4513; /* Earth brown color */
+    --sand-yellow: #D2B48C; /* Sand yellow color */
+    --white: #FFFFFF; /* White color */
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-green); /* Set background color */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--primary-green); /* Set background color for the navigation bar */
+    color: var(--white); /* Set text color for navigation links */
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* Set container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: var(--dark-green); /* Set heading color */
+}
+
+/* Paragraph Styles */
+p {
+    color: var(--earth-brown); /* Set paragraph text color */
+}
+
+/* Link Styles */
+a {
+    color: var(--earth-brown); /* Set link color */
+}
+
